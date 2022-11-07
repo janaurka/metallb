@@ -273,6 +273,12 @@
       },
       "required": [ "podMonitor", "prometheusRule" ]
     },
+    "addresspools": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
     "speaker": { 
       "allOf": [
         { "$ref": "#/definitions/component" },
